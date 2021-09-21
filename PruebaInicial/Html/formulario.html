@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de adopción</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <div id="formulario">
+            <table align="center">
+                <form action="inscripcion" method="get">
+                     <tr align="center">
+                         <th><u>DATOS DEL ADOPTANTE</u></th>
+                         <th><u>TIPO DE DOMICILIO</u></th>
+                         <th><u>MASCOTAS</u></th>
+                         <th><u>DATOS COMPLEMENTARIOS</u></th>
+                     </tr>
+                     <tr align="center">
+                         <td><p>DNI: <input type="dni" name="dni" maxlength="9" placeholder="Escriba aquí"></p></td>
+                         <td>
+                         <select name="domicilio" id="domi">
+                             <option value="0">Escoja una opción</option>
+                             <option value="1">Piso propio</option>
+                             <option value="2">Piso de Alquiler</option>
+                             <option value="3">Casa propia</option>
+                             <option value="4">Casa de Alquiler</option>
+                             <option value="5">Otro</option>
+                         </select>
+                        </td>
+                         <td><p>Número de mascotas: <input type="text" name="nummascotas" maxlength="3" placeholder="Escriba aquí"></p></td>
+                         <td><p>¿Cuántas horas pasaría el animal solo?:
+                             <br>
+                             <input type="radio" name="horas" value="mas">+4
+                             <input type="radio" name="horas" value="menos">-4
+                         </p></td>
+                     </tr>
+                     <tr align="center">
+                         <td><p>Nombre: <input type="text" name="nombre" size="20" placeholder="Escriba aquí"></p></td>
+                         <td><p>En caso de escoger la opción "otro" indíque que tipo de domicilio es <br><textarea name="textodeotro" id="texotro" cols="30" rows="4" placeholder="Escriba aquí"></textarea></p></td>
+                         <td><p>¿Cuántas son perros?<input type="text" name="numperros" maxlength="3"></p></td>
+                         <td><p>¿Vive cerca de zonas donde pueda correr y jugar?:
+                             <br>
+                             <input type="radio" name="siono" value="si">Si
+                             <input type="radio" name="siono" value="no">No
+                         </p></td>
+                     </tr>
+                     <tr align="center">
+                         <td><p>Apellidos: <input type="text" name="apellidos" size="20" placeholder="Escriba aquí"></p></td>
+                         <td></td>
+                         <td><p>¿Cuántas son gatos?<input type="text" name="numgatos" maxlength="3" placeholder="Escriba aquí"></p></td>
+                         <td><p>¿Su vivienda tiene espacio para el animal?:
+                             <br>
+                             <input type="radio" name="siono" value="si">Si
+                             <input type="radio" name="siono" value="no">No
+                         </p></td>
+                     </tr>
+                     <tr align="center">
+                         <td><p>Fecha de nacimiento: <input type="date" name="fecha" min="1931-01-01" max="2020-12-31"></p></td>
+                         <td></td>
+                         <td></td>
+                         <td><p>Probabilidad de adoptar otro animal tras adoptar a este: <br><input type="range" name="porcentaje" min="0" max="100"></p></td> </td>
+                     </tr>
+                     <tr align="center">
+                         <td><p>Domicilio: <input type="text" name="reside" size="30" placeholder="Escriba aquí"></p></td>
+                         <td></td>
+                         <td></td>
+                     </tr>
+                     <tr align="center">
+                         <td><p>Género:
+                           <input type="radio" name="hm" value="m"> Mujer
+                           <input type="radio" name="hm" value="h"> Hombre
+                           <input type="radio" name="otro", value="o">Otro
+                             </p></td>
+                         <td></td>
+                         <td></td>
+                         <td><p>
+                           <input class="enviar" type="submit" value="Enviar">
+                           <input class="borrar" type="reset" value="Borrar">
+                             </p></td>
+                         <td></td>
+                     </tr>
+                 </form>
+           </table>
+    </body>
+</html>

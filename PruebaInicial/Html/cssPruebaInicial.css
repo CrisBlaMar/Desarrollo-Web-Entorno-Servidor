@@ -1,0 +1,73 @@
+body{
+    background-color: #FEF5E7;
+}
+@font-face {
+    font-family: gooddog;
+    src: url(GOODDP__.TTF);
+}
+#titulo{
+    font-family: gooddog;
+    text-align: center;
+    color: #DC7633;
+    font-size:60px;
+    margin-top: 1px;
+}
+#encabezado{
+    background-color: #FAD7A0;
+    width: 1250px;
+    height: 110px;
+    padding-top: 2px;
+    letter-spacing: 5px;
+}
+#subtitulo{
+    color: rgb(63, 29, 2);
+    text-align: center;
+    background-color: #E6CC7D;
+    font-size: 20px;
+    padding-top: 1px;
+
+}
+#per{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-top: 2px;
+}
+#gat{
+    width: 80px;
+    height: 80px;   
+}
+#enlacePerro{
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 390px;
+    height: 300px;
+}
+#enlacePerro:hover{
+    filter: opacity(0.5);
+}
+#enlaceGato{
+    margin-top: 90px;
+    margin-left: 370px;
+    width: 390px;
+    height: 300px;
+}
+#enlaceGato:hover{
+    filter: opacity(0.5);
+}
+#redes{
+    background-color:#FAD7A0;
+    text-align: center;
+}
+#face{
+    width: 30px;
+    height: 30px;
+}
+#ins{
+    width: 50px;
+    height: 30px;
+}
+#twi{
+    width: 30px;
+    height: 30px;
+}
